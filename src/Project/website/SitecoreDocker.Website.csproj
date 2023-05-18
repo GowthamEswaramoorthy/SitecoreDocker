@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\zzz\zzz.SitecoreDocker.Website.config" />
+    <None Include="Properties\PublishProfiles\DockerDeploy.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +82,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
