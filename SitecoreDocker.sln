@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{77F20A0C-EA9F-4D2E-AC38-B300BD345DF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{BEBB88BF-ADE8-47CE-AFF9-4469FBD905F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{BFE42ED6-8D13-4298-BA29-FEC86319B73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDocker.Website", "src\Project\website\SitecoreDocker.Website.csproj", "{3FFDF655-A280-4A1F-98A3-92E299C64A54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FFDF655-A280-4A1F-98A3-92E299C64A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFDF655-A280-4A1F-98A3-92E299C64A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFDF655-A280-4A1F-98A3-92E299C64A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFDF655-A280-4A1F-98A3-92E299C64A54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3FFDF655-A280-4A1F-98A3-92E299C64A54} = {BFE42ED6-8D13-4298-BA29-FEC86319B73E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC1B08AF-F911-4C82-8CEF-1EEFF10A1680}
+	EndGlobalSection
+EndGlobal

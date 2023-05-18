@@ -1,0 +1,68 @@
+# may contain OAuth secrets, do not commit
+.sitecore/user.json
+
+# package reference cache
+.sitecore/package-cache
+
+# Ephemeral index caches used by serialization, do not commit
+.scindex
+
+# Don't commit packages
+*.itempackage
+*.sicpackage
+
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/packages
+**/bin
+**/obj
+*.user
+
+/docker/data/*/**
+!/docker/data/*/.gitkeep
+/docker/deploy/*/**
+!/docker/deploy/*/.gitkeep
+!/docker/deploy/serialization
+
+# Ignore thumbnails created by Windows
+Thumbs.db
+# Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.zip
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+.vscode/
+packages/
+# Device Detection Data files
+/docker/data/devicedetection/*.lock
+/docker/data/devicedetection/*.hash
+
+
+/docker/traefik/certs/*
+!/docker/traefik/certs/.gitkeep
